@@ -1,4 +1,4 @@
-# <p align=center> D3 COVID-19 | Teste Frontend</p>
+# <p align=center> Adentis | Teste Frontend</p>
 
 
 Desafio para buscar e listar as regiões na **IPMA API**, e ao clicar em uma das regiões, mostra a previsão do clima para os próximos 5 dias.
