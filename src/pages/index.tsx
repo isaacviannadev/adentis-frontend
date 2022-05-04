@@ -8,7 +8,13 @@ import { IDataInResponseApi, IForecastObject } from '../utils/interfaces';
 
 const Home: NextPage = ({ apiData }: any) => {
   const [forecastRes, setForecastRes] = useState<IForecastObject>({
-    data: [],
+    data: {
+      owner: '',
+      data: [],
+      country: '',
+      dataUpdate: '',
+      globalIdLocal: 0,
+    },
     idAreaAviso: '',
     local: '',
   });
