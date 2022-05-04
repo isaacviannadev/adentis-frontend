@@ -17,8 +17,9 @@ const RegionList: React.FC<IRegionList> = ({ apiData, handleRegionClick }) => {
     setValue(value);
 
     if (value.length > 0) {
-      const filteredData = apiData.filter((item: IDataInResponseApi) =>
-        item.local.includes(value)
+      const filteredData = apiData.filter(
+        (item: IDataInResponseApi) =>
+          item.local.includes(value) || item.idAreaAviso.includes(value)
       );
 
       return setDataSearched(filteredData);

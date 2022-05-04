@@ -23,7 +23,7 @@ export const Title = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    max-height: 100%;
+    max-height: 80px;
     padding: 10px;
     top: 0px;
 
