@@ -4,7 +4,5 @@ export const formatDate = (date: Date): string => {
   const month = (date.getMonth() + 1).toPrecision().padStart(2, '0');
   const year = date.getFullYear();
 
-  console.log(`${day}/${month}/${year}`);
-
   return `${day}/${month}/${year}`;
 };
